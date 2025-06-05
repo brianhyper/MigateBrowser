@@ -12,7 +12,7 @@ public class BrowserEngine {
         webEngine = webView.getEngine();
         configureEngine();
     }
-
+// latest supported engine thou will be detectedas an older version
     private void configureEngine() {
         webEngine.setJavaScriptEnabled(true);
         webEngine.setUserStyleSheetLocation(getClass().getResource("/themes/browser.css").toString());
